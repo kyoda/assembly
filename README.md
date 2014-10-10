@@ -42,5 +42,18 @@ operand: $0x01, %al
 number > $  
 register > % 
 
+### jump
+
+| jump | mean |
+|:--:|:--:|
+| ja | a < b |
+| jae | a <= b |
+| jb | a > b |
+| jbe | a >= b |
+| je | a = b |
+| jne | a != b |
+| jc | CF = 1 |
+| jz | ZF = 1 |
+
 
 
