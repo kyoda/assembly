@@ -6,7 +6,7 @@ msgend: .equ len, msgend - msg
 .global main
 main:
     movl $100, %eax
-    movl $200, %ebx
+    movl $50, %ebx
     cmpl %eax, %ebx
     jb print
 end:
@@ -16,7 +16,7 @@ end:
 print:
     movl $4, %eax     
     movl $1, %ebx     
-    movl $msg, %ecx   
+    movl $msgend, %ecx   
     movl $len, %edx   
     int $0x80         
     jmp end
