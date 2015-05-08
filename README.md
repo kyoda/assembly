@@ -56,4 +56,7 @@ register > %
 | jz | ZF = 1 |
 
 
+### system call
+
+read => eax = 3
 
