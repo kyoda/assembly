@@ -59,4 +59,7 @@ register > %
 ### system call
 
 read => eax = 3
+ebx => arg1
+ecx => arg2
+edx => arg3
 
