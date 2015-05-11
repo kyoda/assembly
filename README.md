@@ -58,6 +58,10 @@ register > %
 
 ### system call
 
+| system call | number |
+|:--:|:--:|
+| read | 3 |
+
 read => eax = 3
 ebx => arg1
 ecx => arg2
