@@ -56,11 +56,12 @@ register > %
 | jz | ZF = 1 |
 
 
-### system call
+### Linux System Calls
 
-| system call | number |
-|:--:|:--:|
-| read | 3 |
+| %eax | name | %ebx | %ecx | %edx | %esx | %edi |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1 | exit | int | - | - | - | - |
+| 3 | read | unsigned int | char * | size_t | - | - |
 
 read => eax = 3
 ebx => arg1
