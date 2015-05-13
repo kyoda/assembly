@@ -61,10 +61,16 @@ register > %
 | %eax | name | %ebx | %ecx | %edx | %esx | %edi |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | 1 | exit | int | - | - | - | - |
+| 2 | fork | struct pt_regs | - | - | - | - |
 | 3 | read | unsigned int | char * | size_t | - | - |
 
 read => eax = 3
 ebx => arg1
 ecx => arg2
 edx => arg3
+
+
+
+
+
 
