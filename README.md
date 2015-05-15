@@ -64,6 +64,7 @@ register > %
 | 2 | fork | struct pt_regs | - | - | - | - |
 | 3 | read | unsigned int | char * | size_t | - | - |
 | 4 | write | unsigned int | const char * | size_t | - | - |
+| 5 | open | const char * | int | int | - | - |
 
 read => eax = 3
 ebx => arg1
