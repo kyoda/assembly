@@ -66,11 +66,6 @@ register > %
 | 4 | write | unsigned int | const char * | size_t | - | - |
 | 5 | open | const char * | int | int | - | - |
 
-read => eax = 3
-ebx => arg1
-ecx => arg2
-edx => arg3
-
 
 
 
