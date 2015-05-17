@@ -58,13 +58,13 @@ register > %
 
 ### Linux System Calls
 
-| %eax | name | %ebx | %ecx | %edx | %esx | %edi |
+| %eax | name  | %ebx           | %ecx         | %edx   | %esx | %edi |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1 | exit | int | - | - | - | - |
-| 2 | fork | struct pt_regs | - | - | - | - |
-| 3 | read | unsigned int | char * | size_t | - | - |
-| 4 | write | unsigned int | const char * | size_t | - | - |
-| 5 | open | const char * | int | int | - | - |
+| 1    | exit  | int            | -            | -      | - | - |
+| 2    | fork  | struct pt_regs | -            | -      | - | - |
+| 3    | read  | unsigned int   | char *       | size_t | - | - |
+| 4    | write | unsigned int   | const char * | size_t | - | - |
+| 5    | open  | const char *   | int          | int    | - | - |
 
 
 
