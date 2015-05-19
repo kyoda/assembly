@@ -58,6 +58,8 @@ register > %
 
 ### Linux System Calls
 
+`int $0x80`
+
 | %eax | name  | %ebx           | %ecx         | %edx   | %esx | %edi |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | 1    | exit  | int            | -            | -      | - | - |
