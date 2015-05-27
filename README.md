@@ -1,12 +1,15 @@
+# Study Assembly
 
-## Study Assembly
 
 
-### compile
+## compile
 
 > gcc hello.s
 
-### register
+
+
+
+## register
 
 | 32 | 16 | 8 | mean |
 |:--:|:--:|:--:|:--:|
@@ -20,7 +23,7 @@
 | EIP | IP || instruction pointer |
 | ESP | SP || stack pointer |
 
-### mnemonic
+## mnemonic
 
 > movb $0x01 %al
 
@@ -28,7 +31,7 @@ opecode: movb
 operand: $0x01, %al
 
 
-### opecode
+## opecode
 
 | bit | mean | e.g. | | register |
 |:--:|:--:|:--:|:--:|:--:|
@@ -42,7 +45,7 @@ operand: $0x01, %al
 number > $  
 register > % 
 
-### jump
+## jump
 
 | jump | mean |
 |:--:|:--:|
@@ -56,7 +59,7 @@ register > %
 | jz | ZF = 1 |
 
 
-### Linux System Calls
+## Linux System Calls
 
 + Interrupt for System Calls
 > `int $0x80`
