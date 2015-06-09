@@ -1,12 +1,9 @@
 # Study Assembly
 
 
-
 ## compile
 
 > gcc hello.s
-
-
 
 
 ## register
