@@ -1,5 +1,6 @@
 # Study Assembly
 
+globl
 
 ## compile
 
