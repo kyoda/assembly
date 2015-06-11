@@ -40,8 +40,8 @@ operand: $0x01, %al
 | 64 | quadword | movq | | |
 
 
-number > $  
-register > % 
+> number: $  
+> register: % 
 
 ## jump
 
@@ -69,9 +69,4 @@ register > %
 | 3    | read  | unsigned int   | char *       | size_t | - | - |
 | 4    | write | unsigned int   | const char * | size_t | - | - |
 | 5    | open  | const char *   | int          | int    | - | - |
-
-
-
-
-
 
