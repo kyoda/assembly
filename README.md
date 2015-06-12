@@ -9,6 +9,11 @@ globl
 
 ## register
 
++ Processor Registers
++ Data Registers
+
+
+
 | 32 | 16 | 8 | mean |
 |:--:|:--:|:--:|:--:|
 | EAX | AX | AH, AL | accumulater |
